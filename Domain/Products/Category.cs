@@ -2,7 +2,14 @@
 {
     public class Category
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public String Name { get; set; }
+        public string CreateBy { get; set; }
+
+        public DateTime CreateOn { get; set; }
+
+        public string EditedBy { get; set; }
+
+        public DateTime EditedOn { get; set;}
     }
 }

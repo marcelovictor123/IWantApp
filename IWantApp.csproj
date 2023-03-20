@@ -10,4 +10,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Cursos\C_sharp\IWantApp\src\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Cursos\C_sharp\IWantApp\src\.editorconfig" />
+  </ItemGroup>
+
 </Project>
